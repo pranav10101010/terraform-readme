@@ -6,9 +6,9 @@
 
  -> It helps to automate infrastructure provisioning using reusable, shareable, human-readable configuration files. The tool can automate infrastructure provisioning in both on-premises and cloud environments.
 
-** Advantages :**
+**Advantages:**
 
-** 1. Track your infrastructure**
+1. **Track your infrastructure**
 
 Terraform generates a plan and prompts you for your approval before modifying your infrastructure. It also keeps track of your real infrastructure in a state file(terraform.tfstate), which acts as a source of truth for your environment. Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
 
